@@ -204,7 +204,7 @@ class ToolTipWidget extends StatelessWidget {
                                             style: titleTextStyle ??
                                                 Theme.of(context)
                                                     .textTheme
-                                                    .title
+                                                    .headline6
                                                     .merge(TextStyle(
                                                         color: textColor)),
                                           )
@@ -214,7 +214,7 @@ class ToolTipWidget extends StatelessWidget {
                                       style: descTextStyle ??
                                           Theme.of(context)
                                               .textTheme
-                                              .subtitle
+                                              .subtitle2
                                               .merge(
                                                   TextStyle(color: textColor)),
                                     ),
